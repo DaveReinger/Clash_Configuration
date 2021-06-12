@@ -32,4 +32,4 @@ Clash 下载节点链接: `https://raw.githubusercontent.com/ender-zhao/Clash_Co
 **[Clash For Android](https://play.google.com/store/apps/details?id=com.github.kr328.clash&hl=zh-CN)**
 
 ***
-**节点仅用于学习，请在24小时内删除**
+**仅用于学习，请在24小时内删除相关内容**
