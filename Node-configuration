@@ -9,7 +9,7 @@ proxies:
   - {"name":"日本 -L2 JPU","type":"vmess","server":"gy.nkeo.top","port":55010,"uuid":"f4b372e7-05f5-36e5-b859-dbc58d3e224f","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/home","ws-headers":{"Host":"pull.free.video.10010.com"}}
   - {"name":"美国 -L2 USU","type":"vmess","server":"5.us.ilaosiji.xyz","port":10001,"uuid":"f4b372e7-05f5-36e5-b859-dbc58d3e224f","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/v2ray","ws-headers":{"Host":"pull.free.video.10010.com"}}
   - {"name":"美国 -L1 USD 02 联通免流节点","type":"vmess","server":"13.us.az.slavenode.tk","port":80,"uuid":"f4b372e7-05f5-36e5-b859-dbc58d3e224f","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/index","ws-headers":{"Host":"pull.free.video.10010.com"}}
-  - {"name":"美国 -L1 USD| ilaosiji.xyz","type":"vmess","server":"jm.nkeo.top","port":54142,"uuid":"f4b372e7-05f5-36e5-b859-dbc58d3e224f","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/","ws-headers":{"Host":"pull.free.video.10010.com"}}
+  - {"name":"美国 -L1 USD","type":"vmess","server":"jm.nkeo.top","port":54142,"uuid":"f4b372e7-05f5-36e5-b859-dbc58d3e224f","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/","ws-headers":{"Host":"pull.free.video.10010.com"}}
   - {name: 香港01, server: 47.240.46.71, port: 444, type: ss, cipher: aes-256-cfb, password: aliskrskr}
   - {name: 香港02, server: 18.162.96.154, port: 80, type: vmess, uuid: 119f999c-2cf9-36cd-bf7b-08fdf66dbd45, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /hk, ws-headers: {Host: 18.162.96.154}}
   - {name: 台湾01, server: p5.22332e.com, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!}
