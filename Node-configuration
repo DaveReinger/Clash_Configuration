@@ -28,8 +28,8 @@ proxies:
   - {name: 德国, server: 5.183.179.94, port: 29082, type: ss, cipher: chacha20-ietf-poly1305, password: xiaodongyoutuber}
   - {name: 荷兰, server: 154.84.1.217, port: 443, type: vmess, uuid: d03a8fbf-7d51-46c3-b02d-17ff0b32e4c5, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-path: /footers, ws-headers: {Host: www.53103739.xyz}, udp: true}
   - {name: 英国01, server: 5.226.139.149, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk}
-  - {name: 英国02, server: 217.146.83.81, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH}
-  - {name: 英国03, server: 185.44.76.188, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv}
+  - {name: 英国02, server: 37.10.114.67, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 英国03, server: 217.146.83.81, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
   - {name: 日本01, server: 175.41.204.200, port: 30030, type: vmess, uuid: 39341fe7-b8b7-4605-a811-af1f1d46d4fb, alterId: 100, cipher: auto, tls: false, skip-cert-verify: true}
   - {name: 日本02, server: 18.177.140.83, port: 28483, type: vmess, uuid: 1add6694-b56f-4162-b7da-d899612b0608, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 18.177.140.83}}
   - {name: 罗马尼亚, server: 91.90.121.187, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6, udp: true}
