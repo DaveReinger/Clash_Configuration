@@ -20,6 +20,15 @@
 | 新加坡 | 1 | 6.12.2021 |
 
 **来自第三方贡献的节点**
+> [ilaosiji.xyz](ilaosiji.xyz) 的说明。
+> 为了构建和谐社会，本站贡献节点触碰以下审计规则5次将会被封禁一个小时，所以使用的时候若不能使用不代表不能用（本站 Youtube 4K秒开）
+> - #1	屁屏蔽违规网站	Ban Violation	(.*\.||)(gov|12377|12315|talk.news.pts|zhuichaguoji|efcc|cyberpolice|tuidang|nytimes|falundafa|falunaz|110.qq|mingjingnews|inmediahk|xinsheng|12321|epochweekly|cn.rfi|mingjing|chinaaid|botanwang|xinsheng|rfi|breakgfw|chengmingmag|jinpianwang|xizang-zhiye|breakgfw|qi-gong|voachinese|mhradio|rfa|edoors|edoors|renminbao|soundofhope|zhengjian|dafahao|minghui|dongtaiwang|epochtimes|ntdtv|falundafa|wujieliulan|aboluowang|bannedbook|secretchina|dajiyuan|boxun|chinadigitaltimes|huaglad|dwnews|creaders|oneplusnews|rfa|nextdigital|pincong|gtv|kwok7)\.(cn|com|org|net|club|net|fr|tw|hk|eu|info|me|rocks)	数据包明文匹配
+> - #2	惹不起-有毒的360	360 service prohibited	(.+\.|^)(360|so)\.(cn|com)	数据包明文匹配
+> - #3	屏蔽轮子网站	Ban wheel	(.*\.||)(dafahao|minghui|dongtaiwang|epochtimes|ntdtv|falundafa|wujieliulan|zhengjian)\.(org|com|net)	数据包明文匹配
+> - #4	惹不起-BT-防止版权纷争	Ban BT	BitTorrent protocol	数据包明文匹配
+> - #5	惹不起-BT2-防止版权纷争	Ban BT-2	(torrent|\.torrent|peer_id=|info_hash|get_peers|find_node|BitTorrent|announce_peer|announce\.php\?passkey=)	数据包明文匹配
+> - #6	使用了会更慢的迅雷	Ban Thunder	(.?)(xunlei|sandai|Thunder|XLLiveUD)(.)	数据包明文匹配
+
 | 国家 | 节点名称 | 贡献节点来源 |
 |--------|--------|-------|
 | 日本 | 日本 -L1 JPGIA | ilaosiji.xyz |
