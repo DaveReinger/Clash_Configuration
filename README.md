@@ -54,3 +54,5 @@ Clash 下载节点链接: `https://raw.githubusercontent.com/ender-zhao/Clash_Co
 **仅用于学习，请在24小时内删除相关内容**
 
 **开设这个项目的目的是帮助大家学习,查资料,请勿用于一切违反大陆法律的事情**
+
+**通过更改hosts文件来帮你避免被[查水表](https://github.com/ender-zhao/hosts-file_Site-block-list)**
