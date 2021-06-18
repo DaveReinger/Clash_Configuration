@@ -6,8 +6,8 @@ log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
   - {"name":"日本 -L1 JPGIA","type":"vmess","server":"jp.ilaosiji.xyz","port":10040,"uuid":"f4b372e7-05f5-36e5-b859-dbc58d3e224f","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/v2ray","ws-headers":{"Host":"pull.free.video.10010.com"}}
-  - {"name":"日本 -L2 JPU","type":"vmess","server":"gy.nkeo.top","port":55010,"uuid":"f4b372e7-05f5-36e5-b859-dbc58d3e224f","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/home","ws-headers":{"Host":"pull.free.video.10010.com"}}
-  - {"name":"美国 -L2 USU","type":"vmess","server":"5.us.ilaosiji.xyz","port":10001,"uuid":"f4b372e7-05f5-36e5-b859-dbc58d3e224f","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/v2ray","ws-headers":{"Host":"pull.free.video.10010.com"}}
+  - {"name":"日本 -L2 JPBGP","type":"vmess","server":"jp.ilaosiji.xyz","port":10048,"uuid":"f4b372e7-05f5-36e5-b859-dbc58d3e224f","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/home","ws-headers":{"Host":"pull.free.video.10010.com"}}
+  - {"name":"美国 -L1 USU","type":"vmess","server":"us.az.msmlqnnnlptx6awf.slavenode.tk","port":10001,"uuid":"f4b372e7-05f5-36e5-b859-dbc58d3e224f","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/v2ray","ws-headers":{"Host":"pull.free.video.10010.com"}}
   - {"name":"美国 -L1 USD 02 联通免流节点","type":"vmess","server":"13.us.az.slavenode.tk","port":80,"uuid":"f4b372e7-05f5-36e5-b859-dbc58d3e224f","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/index","ws-headers":{"Host":"pull.free.video.10010.com"}}
   - {"name":"美国 -L1 USD","type":"vmess","server":"jm.nkeo.top","port":54142,"uuid":"f4b372e7-05f5-36e5-b859-dbc58d3e224f","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/","ws-headers":{"Host":"pull.free.video.10010.com"}}
   - {"name":"香港 -L1 HKCN2","type":"vmess","server":"jm.nkeo.top","port":53935,"uuid":"f4b372e7-05f5-36e5-b859-dbc58d3e224f","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/india","ws-headers":{"Host":"pull.free.video.10010.com"}}
