@@ -27,13 +27,13 @@
 > - #3	屏蔽轮子网站	Ban wheel	(.*\.||)(dafahao|minghui|dongtaiwang|epochtimes|ntdtv|falundafa|wujieliulan|zhengjian)\.(org|com|net)	数据包明文匹配
 > - #4	惹不起-BT-防止版权纷争	Ban BT	BitTorrent protocol	数据包明文匹配
 > - #5	惹不起-BT2-防止版权纷争	Ban BT-2	(torrent|\.torrent|peer_id=|info_hash|get_peers|find_node|BitTorrent|announce_peer|announce\.php\?passkey=)	数据包明文匹配
-> - #6	使用了会更慢的迅雷	Ban Thunder	(.?)(xunlei|sandai|Thunder|XLLiveUD)(.)	数据包明文匹配
+
 
 | 国家 | 节点名称 | 贡献节点来源 |
 |--------|--------|-------|
 | 日本 | 日本 -L1 JPGIA | ilaosiji.xyz |
-| 日本 | 日本 -L2 JPU | ilaosiji.xyz |
-| 美国 | 美国  -L2 USU | ilaosiji.xyz |
+| 日本 | 日本 -L2 JPBGP | ilaosiji.xyz |
+| 美国 | 美国 -L1 USU | ilaosiji.xyz |
 | 美国 | 美国 -L1 USD 02 联通免流节点 | ilaosiji.xyz |
 | 美国 | 美国 -L1 USD | ilaosiji.xyz |
 | 香港 | 香港 -L1 HKCN2 | ilaosiji.xyz |
