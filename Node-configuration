@@ -41,7 +41,7 @@ proxy-groups:
       - ♻️ 自动选择
       - '日本 -L1 JPGIA'
       - '日本 -L2 JPBGP'
-      - '美国 -L2 USU'
+      - '美国 -L1 USU'
       - '美国 -L1 USD 02 联通免流节点'
       - '美国 -L1 USD'
       - '香港 -L1 HKCN2'
@@ -76,7 +76,7 @@ proxy-groups:
     proxies:
       - '日本 -L1 JPGIA'
       - '日本 -L2 JPBGP'
-      - '美国 -L2 USU'
+      - '美国 -L1 USU'
       - '美国 -L1 USD 02 联通免流节点'
       - '美国 -L1 USD'
       - '香港 -L1 HKCN2'
@@ -111,7 +111,7 @@ proxy-groups:
       - 🎯 全球直连
       - '日本 -L1 JPGIA'
       - '日本 -L2 JPBGP'
-      - '美国 -L2 USU'
+      - '美国 -L1 USU'
       - '美国 -L1 USD 02 联通免流节点'
       - '美国 -L1 USD'
       - '香港 -L1 HKCN2'
@@ -145,7 +145,7 @@ proxy-groups:
       - 🎯 全球直连
       - '日本 -L1 JPGIA'
       - '日本 -L2 JPBGP'
-      - '美国 -L2 USU'
+      - '美国 -L1 USU'
       - '美国 -L1 USD 02 联通免流节点'
       - '美国 -L1 USD'
       - '香港 -L1 HKCN2'
@@ -179,7 +179,7 @@ proxy-groups:
       - 🚀 节点选择
       - '日本 -L1 JPGIA'
       - '日本 -L2 JPBGP'
-      - '美国 -L2 USU'
+      - '美国 -L1 USU'
       - '美国 -L1 USD 02 联通免流节点'
       - '美国 -L1 USD'
       - '香港 -L1 HKCN2'
@@ -213,7 +213,7 @@ proxy-groups:
       - 🎯 全球直连
       - '日本 -L1 JPGIA'
       - '日本 -L2 JPBGP'
-      - '美国 -L2 USU'
+      - '美国 -L1 USU'
       - '美国 -L1 USD 02 联通免流节点'
       - '美国 -L1 USD'
       - '香港 -L1 HKCN2'
@@ -248,7 +248,7 @@ proxy-groups:
       - ♻️ 自动选择
       - '日本 -L1 JPGIA'
       - '日本 -L2 JPBGP'
-      - '美国 -L2 USU'
+      - '美国 -L1 USU'
       - '美国 -L1 USD 02 联通免流节点'
       - '美国 -L1 USD'
       - '香港 -L1 HKCN2'
@@ -299,7 +299,7 @@ proxy-groups:
       - ♻️ 自动选择
       - '日本 -L1 JPGIA'
       - '日本 -L2 JPBGP'
-      - '美国 -L2 USU'
+      - '美国 -L1 USU'
       - '美国 -L1 USD 02 联通免流节点'
       - '美国 -L1 USD'
       - '香港 -L1 HKCN2'
