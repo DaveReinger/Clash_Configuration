@@ -981,6 +981,8 @@ rules:
  - DOMAIN-SUFFIX,go.10086.cn,🛑 全球拦截
  - DOMAIN-SUFFIX,hivedata.cc,🛑 全球拦截
  - DOMAIN-SUFFIX,navi.gd.chinamobile.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,tbeesley.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,wap.87o5.com,🛑 全球拦截
  - DOMAIN-SUFFIX,a.youdao.com,🍃 应用净化
  - DOMAIN-SUFFIX,adgeo.corp.163.com,🍃 应用净化
  - DOMAIN-SUFFIX,analytics.126.net,🍃 应用净化
