@@ -33,12 +33,12 @@
 
 | 国家 | 节点名称 | 贡献节点来源 |
 |--------|--------|-------|
-| 日本 | 日本 -L1 JPGIA | ilaosiji.xyz |
-| 日本 | 日本 -L2 JPBGP | ilaosiji.xyz |
-| 美国 | 美国 -L1 USU | ilaosiji.xyz |
-| 美国 | 美国 -L1 USD 02 联通免流节点 | ilaosiji.xyz |
-| 美国 | 美国 -L1 USD | ilaosiji.xyz |
-| 香港 | 香港 -L1 HKCN2 | ilaosiji.xyz |
+| 日本 | 日本 -L1 JPGIA | niubi.ilaosiji.xyz |
+| 日本 | 日本 -L2 JPBGP | niubi.ilaosiji.xyz |
+| 美国 | 美国 -L2 USM | niubi.ilaosiji.xyz |
+| 香港 | 香港 -L1 HKD 联通免流节点 | niubi.ilaosiji.xyz |
+| 韩国 | 韩国 -L1 USM | niubi.ilaosiji.xyz |
+| 香港 | 香港 -L1 HKCN2 | niubi.ilaosiji.xyz |
 ***
 ### 导入Clash For Windows
 
