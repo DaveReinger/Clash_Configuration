@@ -7,18 +7,17 @@ external-controller: 127.0.0.1:9090
 proxies:
   - {"name":"日本 -L1 JPGIA","type":"vmess","server":"jp.ilaosiji.xyz","port":10040,"uuid":"f4b372e7-05f5-36e5-b859-dbc58d3e224f","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/v2ray","ws-headers":{"Host":"pull.free.video.10010.com"}}
   - {"name":"日本 -L2 JPBGP","type":"vmess","server":"jp.ilaosiji.xyz","port":10048,"uuid":"f4b372e7-05f5-36e5-b859-dbc58d3e224f","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/home","ws-headers":{"Host":"pull.free.video.10010.com"}}
-  - {"name":"美国 -L1 USU","type":"vmess","server":"us.az.msmlqnnnlptx6awf.slavenode.tk","port":10001,"uuid":"f4b372e7-05f5-36e5-b859-dbc58d3e224f","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/v2ray","ws-headers":{"Host":"pull.free.video.10010.com"}}
-  - {"name":"美国 -L1 USD 02 联通免流节点","type":"vmess","server":"13.us.az.slavenode.tk","port":80,"uuid":"f4b372e7-05f5-36e5-b859-dbc58d3e224f","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/index","ws-headers":{"Host":"pull.free.video.10010.com"}}
-  - {"name":"美国 -L1 USD","type":"vmess","server":"jm.nkeo.top","port":54142,"uuid":"f4b372e7-05f5-36e5-b859-dbc58d3e224f","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/","ws-headers":{"Host":"pull.free.video.10010.com"}}
+   - {"name":"美国 -L2 USM","type":"vmess","server":"jm.nkeo.top","port":45295,"uuid":"f4b372e7-05f5-36e5-b859-dbc58d3e224f","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/v3","ws-headers":{"Host":"pull.free.video.10010.com"}}
+  - {"name":"香港 -L1 HKD 联通免流节点","type":"vmess","server":"16.hk.ilaosiji.xyz","port":8080,"uuid":"f4b372e7-05f5-36e5-b859-dbc58d3e224f","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/index","ws-headers":{"Host":"pull.free.video.10010.com"}}
+  - {"name":"韩国 -L1 USM","type":"vmess","server":"kr.yyds.ilaosiji.xyz","port":449,"uuid":"f4b372e7-05f5-36e5-b859-dbc58d3e224f","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/","ws-headers":{"Host":"pull.free.video.10010.com"}}
   - {"name":"香港 -L1 HKCN2","type":"vmess","server":"jm.nkeo.top","port":53935,"uuid":"f4b372e7-05f5-36e5-b859-dbc58d3e224f","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/india","ws-headers":{"Host":"pull.free.video.10010.com"}}
-  - {name: 香港01, server: 84.17.37.158, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 香港01, server: hk31.ssgnode.ga, port: 443, type: trojan, password: 41742_920c8caa, skip-cert-verify: true, udp: true}
   - {name: 香港02, server: 212.102.42.194, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: 香港03, server: 212.102.42.211, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
   - {name: 台湾01, server: p5.22332e.com, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!}
   - {name: 台湾02, server: android.ufunr.me, port: 8888, type: ss, cipher: aes-256-cfb, password: !<str> 123, udp: true}
   - {name: 台湾03, server: 117.28.243.187, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!, udp: true}
   - {name: 美国01, server: 198.147.22.213, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 美国02, server: 172.98.87.37, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 美国02, server: 156.146.62.46, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
   - {name: 美国03, server: 84.17.41.83, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
   - {name: 美国04, server: 212.102.46.37, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
   - {name: 美国05, server: 104.244.208.37, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
@@ -37,7 +36,6 @@ proxies:
   - {name: 英国03, server: 217.146.83.81, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
   - {name: 日本01, server: jp.angelosakura.tk, port: 12347, type: vmess, uuid: d20d7c24-486d-400c-a8f6-e87bc67bf35c, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: jp.angelosakura.tk}}
   - {name: 日本02, server: 54.199.114.51, port: 30070, type: vmess, uuid: 39341fe7-b8b7-4605-a811-af1f1d46d4fb, alterId: 100, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: 日本03, server: gmegme.ml, port: 443, type: trojan, password: d48629f1-ac71-45ef-b325-37d73da258e8, skip-cert-verify: true, udp: true}
   - {name: 罗马尼亚, server: 91.90.121.187, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6, udp: true}
   - {name: 新加坡, server: sg1.vless.co, port: 443, type: trojan, password: fastssh.com, skip-cert-verify: true, udp: true}
   - {name: 中国01, server: 221.228.99.37, port: 8888, type: ssr, cipher: aes-256-cfb, password: !<str> 123, protocol: origin, obfs: plain, protocol-param: t.me/SSRSUB, obfs-param: ""}
@@ -49,13 +47,12 @@ proxy-groups:
       - ♻️ 自动选择
       - '日本 -L1 JPGIA'
       - '日本 -L2 JPBGP'
-      - '美国 -L1 USU'
-      - '美国 -L1 USD 02 联通免流节点'
-      - '美国 -L1 USD'
+      - '美国 -L2 USM'
+      - '香港 -L1 HKD 联通免流节点'
+      - '韩国 -L1 USM'
       - '香港 -L1 HKCN2'
       - 香港01
       - 香港02
-      - 香港03
       - 台湾01
       - 台湾02
       - 台湾03
@@ -79,7 +76,6 @@ proxy-groups:
       - 英国03
       - 日本01
       - 日本02
-      - 日本03
       - 罗马尼亚
       - 新加坡
       - 中国01
@@ -92,13 +88,12 @@ proxy-groups:
     proxies:
       - '日本 -L1 JPGIA'
       - '日本 -L2 JPBGP'
-      - '美国 -L1 USU'
-      - '美国 -L1 USD 02 联通免流节点'
-      - '美国 -L1 USD'
+      - '美国 -L2 USM'
+      - '香港 -L1 HKD 联通免流节点'
+      - '韩国 -L1 USM'
       - '香港 -L1 HKCN2'
       - 香港01
       - 香港02
-      - 香港03
       - 台湾01
       - 台湾02
       - 台湾03
@@ -122,7 +117,6 @@ proxy-groups:
       - 英国03
       - 日本01
       - 日本02
-      - 日本03
       - 罗马尼亚
       - 新加坡
       - 中国01
@@ -135,13 +129,12 @@ proxy-groups:
       - 🎯 全球直连
       - '日本 -L1 JPGIA'
       - '日本 -L2 JPBGP'
-      - '美国 -L1 USU'
-      - '美国 -L1 USD 02 联通免流节点'
-      - '美国 -L1 USD'
+      - '美国 -L2 USM'
+      - '香港 -L1 HKD 联通免流节点'
+      - 韩国 -L1 USM'
       - '香港 -L1 HKCN2'
       - 香港01
       - 香港02
-      - 香港03
       - 台湾01
       - 台湾02
       - 台湾03
@@ -165,7 +158,6 @@ proxy-groups:
       - 英国03
       - 日本01
       - 日本02
-      - 日本03
       - 罗马尼亚
       - 新加坡
       - 中国01
@@ -177,13 +169,12 @@ proxy-groups:
       - 🎯 全球直连
       - '日本 -L1 JPGIA'
       - '日本 -L2 JPBGP'
-      - '美国 -L1 USU'
-      - '美国 -L1 USD 02 联通免流节点'
-      - '美国 -L1 USD'
+      - '美国 -L2 USM'
+      - '香港 -L1 HKD 联通免流节点'
+      - '韩国 -L1 USM'
       - '香港 -L1 HKCN2'
       - 香港01
       - 香港02
-      - 香港03
       - 台湾01
       - 台湾02
       - 台湾03
@@ -207,7 +198,6 @@ proxy-groups:
       - 英国03
       - 日本01
       - 日本02
-      - 日本03
       - 罗马尼亚
       - 新加坡
       - 中国01
@@ -219,13 +209,12 @@ proxy-groups:
       - 🚀 节点选择
       - '日本 -L1 JPGIA'
       - '日本 -L2 JPBGP'
-      - '美国 -L1 USU'
-      - '美国 -L1 USD 02 联通免流节点'
-      - '美国 -L1 USD'
+      - '美国 -L2 USM'
+      - '香港 -L1 HKD 联通免流节点'
+      - '韩国 -L1 USM'
       - '香港 -L1 HKCN2'
       - 香港01
       - 香港02
-      - 香港03
       - 台湾01
       - 台湾02
       - 台湾03
@@ -249,7 +238,6 @@ proxy-groups:
       - 英国03
       - 日本01
       - 日本02
-      - 日本03
       - 罗马尼亚
       - 新加坡
       - 中国01
@@ -261,13 +249,12 @@ proxy-groups:
       - 🎯 全球直连
       - '日本 -L1 JPGIA'
       - '日本 -L2 JPBGP'
-      - '美国 -L1 USU'
-      - '美国 -L1 USD 02 联通免流节点'
-      - '美国 -L1 USD'
+      - '美国 -L2 USM'
+      - '香港 -L1 HKD 联通免流节点'
+      - '韩国 -L1 USM'
       - '香港 -L1 HKCN2'
       - 香港01
       - 香港02
-      - 香港03
       - 台湾01
       - 台湾02
       - 台湾03
@@ -291,7 +278,6 @@ proxy-groups:
       - 英国03
       - 日本01
       - 日本02
-      - 日本03
       - 罗马尼亚
       - 新加坡
       - 中国01
@@ -304,13 +290,12 @@ proxy-groups:
       - ♻️ 自动选择
       - '日本 -L1 JPGIA'
       - '日本 -L2 JPBGP'
-      - '美国 -L1 USU'
-      - '美国 -L1 USD 02 联通免流节点'
-      - '美国 -L1 USD'
+      - '美国 -L2 USM'
+      - '香港 -L1 HKD 联通免流节点'
+      - '韩国 -L1 USM'
       - '香港 -L1 HKCN2'
       - 香港01
       - 香港02
-      - 香港03
       - 台湾01
       - 台湾02
       - 台湾03
@@ -334,7 +319,6 @@ proxy-groups:
       - 英国03
       - 日本01
       - 日本02
-      - 日本03
       - 罗马尼亚
       - 新加坡
       - 中国01
@@ -363,13 +347,12 @@ proxy-groups:
       - ♻️ 自动选择
       - '日本 -L1 JPGIA'
       - '日本 -L2 JPBGP'
-      - '美国 -L1 USU'
-      - '美国 -L1 USD 02 联通免流节点'
-      - '美国 -L1 USD'
+      - '美国 -L2 USM'
+      - '香港 -L1 HKD 联通免流节点'
+      - '韩国 -L1 USM'
       - '香港 -L1 HKCN2'
       - 香港01
       - 香港02
-      - 香港03
       - 台湾01
       - 台湾02
       - 台湾03
@@ -393,7 +376,6 @@ proxy-groups:
       - 英国03
       - 日本01
       - 日本02
-      - 日本03
       - 罗马尼亚
       - 新加坡
       - 中国01
