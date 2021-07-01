@@ -131,7 +131,7 @@ proxy-groups:
       - '日本 -L2 JPBGP'
       - '美国 -L2 USM'
       - '香港 -L1 HKD 联通免流节点'
-      - 韩国 -L1 USM'
+      - '韩国 -L1 USM'
       - '香港 -L1 HKCN2'
       - 香港01
       - 香港02
