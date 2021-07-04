@@ -19,7 +19,7 @@ proxies:
   - {name: 美国01, server: 154.17.2.211, port: 18332, type: ss, cipher: chacha20-ietf-poly1305, password: ZECSlaTZea5jFO736FA3Ry3DaXRA2qNx0pceYDzKCuYS8gl3B4p8InwyDCOSx9}
   - {name: 美国02, server: 154.17.2.121, port: 18334, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
   - {name: 美国03, server: 154.17.1.245, port: 18334, type: ss, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS, cipher: chacha20-ietf-poly1305}
-  - {name: 美国04, server: 192.111.134.220, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 美国04, server: 154.17.1.245, port: 18334, type: ss, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS, cipher: chacha20-ietf-poly1305}
   - {name: 美国05, server: 104.244.208.37, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
   - {name: 加拿大01, server: 180.149.228.27, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
   - {name: 加拿大02, server: 45.125.247.197, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
@@ -37,7 +37,7 @@ proxies:
   - {name: 日本01, server: 54.223.185.171, port: 8003, type: vmess, uuid: e854d8f1-f0f7-40fe-a77d-345cf7a78e05, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 54.223.185.171}}
   - {name: 日本02, server: 54.199.114.51, port: 30070, type: vmess, uuid: 39341fe7-b8b7-4605-a811-af1f1d46d4fb, alterId: 100, cipher: auto, tls: false, skip-cert-verify: true}
   - {name: 韩国01, server: 45.130.137.28, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 韩国02, server: 45.130.137.30, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 韩国02, server: 193.110.201.185, port: 18333, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
   - {name: 新加坡01, server: sg1.vless.co, port: 443, type: trojan, password: fastssh.com, skip-cert-verify: true, udp: true}
   - {name: 新加坡02, server: 89.187.163.215, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
   - {name: 中国01, server: 221.228.99.37, port: 8888, type: ssr, cipher: aes-256-cfb, password: !<str> 123, protocol: origin, obfs: plain, protocol-param: t.me/SSRSUB, obfs-param: ""}
