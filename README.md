@@ -30,19 +30,19 @@
 > 
 > 追求极高速度且稳定，建议觅云机场，缺点: 价格昂贵，如果你只是想看看油管就不推荐了 官网:[miyun.fun](https://www.miyun.fun/register?code=y7watg)
 > 
-> 追求实惠建议ilaosiji.xyz(也是第三方提供者)的机场 官网:[ilaosiji.xyz](https://ilaosiji.xyz/)
+> 追求实惠建议 **音速科技** (也是第三方节点提供者)的机场 官网:[音速科技](https://niubi.ilaosiji.xyz/)
 > 
 > 想要节点多一点，价格又好接受，建议极客云，且较为实惠，缺点: 少数时候会突然不稳定,不推荐游戏玩家购买 官网:[jike00.net](https://jike00.net/)
 > 
 
 **来自第三方贡献的节点**
-> [ilaosiji.xyz](https://ilaosiji.xyz/) 的说明。
-> 为了构建和谐社会，本站贡献节点触碰以下审计规则5次将会被封禁一个小时，所以使用的时候若不能使用不代表不能用（本站 Youtube 4K秒开）
-> - #1	屁屏蔽违规网站	Ban Violation	(.*\.||)(gov|12377|12315|talk.news.pts|zhuichaguoji|efcc|cyberpolice|tuidang|nytimes|falundafa|falunaz|110.qq|mingjingnews|inmediahk|xinsheng|12321|epochweekly|cn.rfi|mingjing|chinaaid|botanwang|xinsheng|rfi|breakgfw|chengmingmag|jinpianwang|xizang-zhiye|breakgfw|qi-gong|voachinese|mhradio|rfa|edoors|edoors|renminbao|soundofhope|zhengjian|dafahao|minghui|dongtaiwang|epochtimes|ntdtv|falundafa|wujieliulan|aboluowang|bannedbook|secretchina|dajiyuan|boxun|chinadigitaltimes|huaglad|dwnews|creaders|oneplusnews|rfa|nextdigital|pincong|gtv|kwok7)\.(cn|com|org|net|club|net|fr|tw|hk|eu|info|me|rocks)	数据包明文匹配
-> - #2	惹不起-有毒的360	360 service prohibited	(.+\.|^)(360|so)\.(cn|com)	数据包明文匹配
-> - #3	屏蔽轮子网站	Ban wheel	(.*\.||)(dafahao|minghui|dongtaiwang|epochtimes|ntdtv|falundafa|wujieliulan|zhengjian)\.(org|com|net)	数据包明文匹配
-> - #4	惹不起-BT-防止版权纷争	Ban BT	BitTorrent protocol	数据包明文匹配
-> - #5	惹不起-BT2-防止版权纷争	Ban BT-2	(torrent|\.torrent|peer_id=|info_hash|get_peers|find_node|BitTorrent|announce_peer|announce\.php\?passkey=)	数据包明文匹配
+
+> 为了构建和谐社会，本站[音速科技](https://niubi.ilaosiji.xyz/) 贡献节点触碰以下审计规则5次将会被封禁一个小时，登录账户可以查看是否封禁（本站 Youtube 4K秒开）
+
+
+| 分享的账户 | 密码 | 来源 | 备注 |
+|--------|--------|-------|-------|
+| share@qq.com | 123456 | [音速科技](https://niubi.ilaosiji.xyz/) | 本账户每1小时重置为默认状态，修改密码无效;每月提供 512GB 分享流量;触碰审计规则5次将会被封禁一个小时 |
 
 
 | 国家 | 节点名称 | 贡献节点来源 |
