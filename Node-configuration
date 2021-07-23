@@ -12,7 +12,7 @@ proxies:
   - {"name":"韩国 -L1 USM","type":"vmess","server":"54.223.120.161","port":21769,"uuid":"f4b372e7-05f5-36e5-b859-dbc58d3e224f","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/","ws-headers":{"Host":"pull.free.video.10010.com"}}
   - {"name":"香港 -L1 HKCN2","type":"vmess","server":"jm.nkeo.top","port":53935,"uuid":"f4b372e7-05f5-36e5-b859-dbc58d3e224f","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/india","ws-headers":{"Host":"pull.free.video.10010.com"}}
   - {name: 香港01, server: hk31.ssgnode.ga, port: 443, type: trojan, password: 41742_920c8caa, skip-cert-verify: true, udp: true}
-  - {name: 香港02, server: 212.102.42.194, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
+  - {name: 香港02, server: kaizen-hk-4.cn0.me, port: 443, type: trojan, password: 18e513fe-f7f4-353d-84ca-bc9646fb2528mielink, skip-cert-verify: true, udp: true}
   - {name: 台湾01, server: 211.23.132.124, port: 9233, type: vmess, uuid: be58f4e4-894a-47ee-8836-cf75e74fa9c9, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 211.23.132.124}}
   - {name: 台湾02, server: 60.251.50.20, port: 443, type: vmess, uuid: 5ba738e7-0abf-4935-b67e-d404a083d6a6, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /footers, ws-headers: {Host: 60.251.50.20}}
   - {name: 台湾03, server: 117.28.243.187, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!, udp: true}
@@ -34,9 +34,9 @@ proxies:
   - {name: 英国01, server: 185.108.105.57, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
   - {name: 英国02, server: 185.108.105.75, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
   - {name: 英国03, server: 217.146.83.81, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: 日本01, server: 54.223.185.171, port: 8003, type: vmess, uuid: e854d8f1-f0f7-40fe-a77d-345cf7a78e05, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 54.223.185.171}}
-  - {name: 日本02, server: 54.199.114.51, port: 30070, type: vmess, uuid: 39341fe7-b8b7-4605-a811-af1f1d46d4fb, alterId: 100, cipher: auto, tls: false, skip-cert-verify: true}
-  - {name: 韩国01, server: 45.130.137.28, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 日本01, server: ls01.ganfan.space, port: 443, type: trojan, password: eLWyjVEu, skip-cert-verify: true, udp: true}
+  - {name: 日本02, server: 137.220.161.216, port: 35654, type: ss, cipher: chacha20-ietf-poly1305, password: 96a15b984cd95acc}
+  - {name: 韩国01, server: 13.124.66.77, port: 26571, type: vmess, uuid: 9c0a9f28-f9db-4b18-cd76-c14d0755e5b2, alterId: 64, cipher: auto, tls: false}
   - {name: 韩国02, server: 193.110.201.185, port: 18333, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
   - {name: 新加坡01, server: sg1.vless.co, port: 443, type: trojan, password: fastssh.com, skip-cert-verify: true, udp: true}
   - {name: 新加坡02, server: 89.187.163.215, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
