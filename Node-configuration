@@ -5,21 +5,15 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {"name":"日本 -L1 JPGIA","type":"vmess","server":"jp.ilaosiji.xyz","port":10040,"uuid":"f4b372e7-05f5-36e5-b859-dbc58d3e224f","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/v2ray","ws-headers":{"Host":"pull.free.video.10010.com"}}
-  - {"name":"日本 -L2 JPBGP","type":"vmess","server":"jp.ilaosiji.xyz","port":10048,"uuid":"f4b372e7-05f5-36e5-b859-dbc58d3e224f","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/home","ws-headers":{"Host":"pull.free.video.10010.com"}}
-  - {"name":"美国 -L2 USM","type":"vmess","server":"jm.nkeo.top","port":45295,"uuid":"f4b372e7-05f5-36e5-b859-dbc58d3e224f","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/v3","ws-headers":{"Host":"pull.free.video.10010.com"}}
-  - {"name":"香港 -L1 HKD 联通免流节点","type":"vmess","server":"16.hk.ilaosiji.xyz","port":8080,"uuid":"f4b372e7-05f5-36e5-b859-dbc58d3e224f","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/index","ws-headers":{"Host":"pull.free.video.10010.com"}}
-  - {"name":"韩国 -L1 USM","type":"vmess","server":"54.223.120.161","port":21769,"uuid":"f4b372e7-05f5-36e5-b859-dbc58d3e224f","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/","ws-headers":{"Host":"pull.free.video.10010.com"}}
-  - {"name":"香港 -L1 HKCN2","type":"vmess","server":"jm.nkeo.top","port":53935,"uuid":"f4b372e7-05f5-36e5-b859-dbc58d3e224f","alterId":2,"cipher":"auto","udp":true,"network":"ws","ws-path":"/india","ws-headers":{"Host":"pull.free.video.10010.com"}}
   - {name: 香港01, server: hk31.ssgnode.ga, port: 443, type: trojan, password: 41742_920c8caa, skip-cert-verify: true, udp: true}
   - {name: 香港02, server: kaizen-hk-4.cn0.me, port: 443, type: trojan, password: 18e513fe-f7f4-353d-84ca-bc9646fb2528mielink, skip-cert-verify: true, udp: true}
   - {name: 台湾01, server: 211.23.132.124, port: 9233, type: vmess, uuid: be58f4e4-894a-47ee-8836-cf75e74fa9c9, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 211.23.132.124}}
   - {name: 台湾02, server: 60.251.50.20, port: 443, type: vmess, uuid: 5ba738e7-0abf-4935-b67e-d404a083d6a6, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /footers, ws-headers: {Host: 60.251.50.20}}
   - {name: 台湾03, server: 117.28.243.187, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!, udp: true}
-  - {name: 美国01, server: 154.17.2.211, port: 18332, type: ss, cipher: chacha20-ietf-poly1305, password: ZECSlaTZea5jFO736FA3Ry3DaXRA2qNx0pceYDzKCuYS8gl3B4p8InwyDCOSx9}
-  - {name: 美国02, server: 154.17.2.121, port: 18334, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
-  - {name: 美国03, server: 154.17.1.245, port: 18334, type: ss, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS, cipher: chacha20-ietf-poly1305}
-  - {name: 美国04, server: 154.17.1.245, port: 18334, type: ss, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS, cipher: chacha20-ietf-poly1305}
+  - {name: 美国01, type: vmess, server: jike-gzyd.ddns-only.xyz, port: 39601, uuid: b8da3f41-58ec-3294-891e-cc27ecb1244a, alterId: 2, cipher: auto, udp: true, network: ws, ws-path: /jike1, ws-headers: {Host: jike1-us01.ddns-only.xyz}}
+  - {name: 美国02, server: ss.us.sshmax.net, port: 57478, type: ss, cipher: chacha20-ietf-poly1305, password: syCiJl3nb8OD}
+  - {name: 美国03, server: 66.55.148.42, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 美国04, server: 198.8.92.84, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
   - {name: 美国05, server: 198.8.92.84, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
   - {name: 加拿大01, server: 180.149.228.27, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
   - {name: 加拿大02, server: ss3.ssrsub.one, port: 7443, type: ss, cipher: aes-128-gcm, password: suo.yt/ssrsub}
@@ -35,11 +29,11 @@ proxies:
   - {name: 英国02, server: 185.108.105.75, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
   - {name: 英国03, server: 217.146.83.81, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
   - {name: 日本01, server: ls01.ganfan.space, port: 443, type: trojan, password: eLWyjVEu, skip-cert-verify: true, udp: true}
-  - {name: 日本02, server: 137.220.161.216, port: 35654, type: ss, cipher: chacha20-ietf-poly1305, password: 96a15b984cd95acc}
+  - {name: 日本02, type: vmess, server: jike-gzyd.ddns-only.xyz, port: 39401, uuid: b8da3f41-58ec-3294-891e-cc27ecb1244a, alterId: 2, cipher: auto, udp: true, network: ws, ws-path: /jike1, ws-headers: {Host: jike1-azjp01.ddns-only.xyz}}
   - {name: 韩国01, server: 13.124.66.77, port: 26571, type: vmess, uuid: 9c0a9f28-f9db-4b18-cd76-c14d0755e5b2, alterId: 64, cipher: auto, tls: false}
   - {name: 韩国02, server: 193.110.201.185, port: 18333, type: ss, cipher: chacha20-ietf-poly1305, password: Z3YS0KxB8u5jgp736e834y3DaXwSOYzxlFDFqpNCaalDA9CEIRceZOCAnR2yTS}
   - {name: 新加坡01, server: 89.187.163.205, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
-  - {name: 新加坡02, server: 89.187.163.215, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6}
+  - {name: 新加坡02, type: vmess, server: jike-gzyd.ddns-only.xyz, port: 39551, uuid: b8da3f41-58ec-3294-891e-cc27ecb1244a, alterId: 2, cipher: auto, udp: true, network: ws, ws-path: /jike1, ws-headers: {Host: jike1-linode01.ddns-only.xyz}}
   - {name: 俄罗斯01, type: vmess, server: jike-shlt.ddns-only.xyz, port: 39307, uuid: b8da3f41-58ec-3294-891e-cc27ecb1244a, alterId: 2, cipher: auto, udp: true, network: ws, ws-path: /jike1, ws-headers: {Host: jike1-ru04.ddns-only.xyz}}
   - {name: 中国01, server: 101.132.192.212, port: 30003, type: ss, cipher: aes-128-gcm, password: desperadoj.com_free_proxy_d39m}
   - {name: 中国02, server: music.desperadoj.com, port: 30003, type: ss, cipher: aes-128-gcm, password: desperadoj.com_free_proxy_d39m}
@@ -47,12 +41,6 @@ proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
-      - '日本 -L1 JPGIA'
-      - '日本 -L2 JPBGP'
-      - '美国 -L2 USM'
-      - '香港 -L1 HKD 联通免流节点'
-      - '韩国 -L1 USM'
-      - '香港 -L1 HKCN2'
       - 香港01
       - 香港02
       - 台湾01
@@ -90,12 +78,6 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - '日本 -L1 JPGIA'
-      - '日本 -L2 JPBGP'
-      - '美国 -L2 USM'
-      - '香港 -L1 HKD 联通免流节点'
-      - '韩国 -L1 USM'
-      - '香港 -L1 HKCN2'
       - 香港01
       - 香港02
       - 台湾01
@@ -133,12 +115,6 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - '日本 -L1 JPGIA'
-      - '日本 -L2 JPBGP'
-      - '美国 -L2 USM'
-      - '香港 -L1 HKD 联通免流节点'
-      - '韩国 -L1 USM'
-      - '香港 -L1 HKCN2'
       - 香港01
       - 香港02
       - 台湾01
@@ -176,12 +152,6 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - '日本 -L1 JPGIA'
-      - '日本 -L2 JPBGP'
-      - '美国 -L2 USM'
-      - '香港 -L1 HKD 联通免流节点'
-      - '韩国 -L1 USM'
-      - '香港 -L1 HKCN2'
       - 香港01
       - 香港02
       - 台湾01
@@ -219,12 +189,6 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - '日本 -L1 JPGIA'
-      - '日本 -L2 JPBGP'
-      - '美国 -L2 USM'
-      - '香港 -L1 HKD 联通免流节点'
-      - '韩国 -L1 USM'
-      - '香港 -L1 HKCN2'
       - 香港01
       - 香港02
       - 台湾01
@@ -262,12 +226,6 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - '日本 -L1 JPGIA'
-      - '日本 -L2 JPBGP'
-      - '美国 -L2 USM'
-      - '香港 -L1 HKD 联通免流节点'
-      - '韩国 -L1 USM'
-      - '香港 -L1 HKCN2'
       - 香港01
       - 香港02
       - 台湾01
@@ -320,12 +278,6 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - '日本 -L1 JPGIA'
-      - '日本 -L2 JPBGP'
-      - '美国 -L2 USM'
-      - '香港 -L1 HKD 联通免流节点'
-      - '韩国 -L1 USM'
-      - '香港 -L1 HKCN2'
       - 香港01
       - 香港02
       - 台湾01
@@ -358,6 +310,9 @@ proxy-groups:
       - 俄罗斯01
       - 中国01
       - 中国02
+
+# 由于第三方提供者长时间未更新不可用的节点，为了用户体验，因此暂时移除
+
 rules:
  - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
  - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
@@ -400,6 +355,7 @@ rules:
  - DOMAIN,tracking.miui.com,🎯 全球直连
  - DOMAIN,app.adjust.com,🎯 全球直连
  - DOMAIN,bdtj.tagtic.cn,🎯 全球直连
+# 为了你的安全，请让全球拦截选项处于REJECT模式，因为它将屏蔽广告，敏感内容
  - DOMAIN-KEYWORD,admarvel,🛑 全球拦截
  - DOMAIN-KEYWORD,admaster,🛑 全球拦截
  - DOMAIN-KEYWORD,adsage,🛑 全球拦截
@@ -1026,6 +982,22 @@ rules:
  - DOMAIN-SUFFIX,cn.rfi.com,🛑 全球拦截
  - DOMAIN-SUFFIX,dajiyuan.com,🛑 全球拦截
  - DOMAIN-SUFFIX,talk.news.pts.org,🛑 全球拦截
+ - DOMAIN-SUFFIX,xinsheng.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,12321.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,inmediahk.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,efcc.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,zhengjian.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,tbeesley.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,www.360.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,110.qq.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,wap.87o5.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,www.qingdao.gov.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,weishi.360.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,shouji.360.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,html5.mail.10086.cn,🛑 全球拦截
+ - DOMAIN-SUFFIX,inmediahk.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,awsglobalaccelerator.com,🛑 全球拦截
+ - DOMAIN-SUFFIX,www.onlinedown.net,🛑 全球拦截
  - DOMAIN-SUFFIX,a.youdao.com,🍃 应用净化
  - DOMAIN-SUFFIX,adgeo.corp.163.com,🍃 应用净化
  - DOMAIN-SUFFIX,analytics.126.net,🍃 应用净化
