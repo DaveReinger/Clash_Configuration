@@ -19,7 +19,7 @@ proxies:
   - {name: 加拿大02, server: ss7.ssrsub.one, port: 10139, type: ss, cipher: aes-256-cfb, password: suo.yt/ssrsub, plugin: obfs, plugin-opts: {mode: tls, host: n46hm52773.wns.windows.com}}
   - {name: 加拿大03, server: ssr1.ssrsub.one, port: 10139, type: ssr, cipher: aes-256-cfb, password: suo.yt/ssrsub, protocol: origin, obfs: plain, protocol-param: t.me/SSRSUB, obfs-param: ""}
   - {name: 加拿大04, server: ssr2.ssrsub.one, port: 17478, type: ssr, cipher: aes-256-cfb, password: https://dlj.tf/ssrsub, protocol: origin, obfs: plain, protocol-param: t.me/SSRSUB, obfs-param: ""}
-  - {name: 加拿大05, server: ss2.ssrsub.one, port: 6443, type: ss, cipher: aes-128-gcm, password: https://dlj.tf/ssrsub}
+  - {name: 加拿大05, server: 208.78.41.195, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
   - {name: 法国01, server: 217.138.207.253, port: 31757, type: ss, cipher: aes-256-gcm, password: wj7nDCuNARchSeKNCN8VFK62}
   - {name: 法国02, server: 185.166.84.63, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
   - {name: 荷兰01, server: 46.182.107.37, port: 443, type: vmess, uuid: 65ea6727-4461-47a7-a5c4-fef2c67f2f79, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.09462550.xyz}}
