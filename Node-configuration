@@ -30,7 +30,7 @@ proxies:
   - {name: 英国03, server: 185.44.76.188, port: 443, type: trojan, password: 8697fe6b-1948-41ce-a80a-7YWVzLTI1Ni1nY206WWd1c0gyTVdBOFBXYzNwMlZEc1I3QVZ2, skip-cert-verify: true, udp: true}
   - {name: 日本01, server: t6.ssrsub.one, port: 8443, type: trojan, password: 310d9ce0-1903-4b5a-99eb-bee8dc30e8ec, skip-cert-verify: true, udp: true}
   - {name: 日本02, type: vmess, server: jike-gzyd.ddns-only.xyz, port: 39401, uuid: b8da3f41-58ec-3294-891e-cc27ecb1244a, alterId: 2, cipher: auto, udp: true, network: ws, ws-path: /jike1, ws-headers: {Host: jike1-azjp01.ddns-only.xyz}}
-  - {name: 瑞士01, server: 84.17.53.212, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: 瑞士01, server: 84.39.114.86, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}}
   - {name: 瑞士02, server: 37.120.213.5, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
   - {name: 新加坡01, server: ngzyd-1.okex-tradebot.xyz, port: 30004, type: vmess, uuid: f65634a8-3703-42d3-ad2d-bdcf1b31054f, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: ngzyd-1.okex-tradebot.xyz}}
   - {name: 新加坡02, type: vmess, server: jike-gzyd.ddns-only.xyz, port: 39551, uuid: b8da3f41-58ec-3294-891e-cc27ecb1244a, alterId: 2, cipher: auto, udp: true, network: ws, ws-path: /jike1, ws-headers: {Host: jike1-linode01.ddns-only.xyz}}
