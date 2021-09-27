@@ -6,37 +6,35 @@ log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
   - {name: 香港01, server: n32.boom.party, port: 16000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: 165138:ndXj0r, obfs-param: download.windowsupdate.com}
-  - {name: 香港02, server: t5.ssrsub.one, port: 8443, type: trojan, password: 18395e1a-0bf7-42da-a264-4de396141e83, skip-cert-verify: true, udp: true}
+  - {name: 香港02, server: 118.107.244.114, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7}
   - {name: 台湾01, type: vmess, server: jike-cccn2.ddns-only.xyz, port: 39205, uuid: b8da3f41-58ec-3294-891e-cc27ecb1244a, alterId: 2, cipher: auto, udp: true, network: ws, ws-path: /jike1, ws-headers: {Host: jike1-hinet03.ddns-only.xyz}}
   - {name: 台湾02, server: 211.23.132.124, port: 9233, type: vmess, uuid: be58f4e4-894a-47ee-8836-cf75e74fa9c9, alterId: 64, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: 211.23.132.124}}
   - {name: 台湾03, server: 117.28.243.187, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!, udp: true}
-  - {name: 美国01, type: vmess, server: jike-cccn2.ddns-only.xyz, port: 39603, uuid: b8da3f41-58ec-3294-891e-cc27ecb1244a, alterId: 2, cipher: auto, udp: true, network: ws, ws-path: /jike1, ws-headers: {Host: jike1-us05.ddns-only.xyz}}
-  - {name: 美国02, server: 23.82.11.49, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 美国03, server: 23.82.11.49, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd}
-  - {name: 美国04, server: 207.244.67.149, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe}
-  - {name: 美国05, server: 143.244.60.162, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
-  - {name: 加拿大01, server: ss8.ssrsub.one, port: 17478, type: ss, cipher: aes-256-cfb, password: https://dlj.tf/ssrsub, plugin: obfs, plugin-opts: {mode: tls, host: n46hm52773.wns.windows.com}}
-  - {name: 加拿大02, server: ss7.ssrsub.one, port: 10139, type: ss, cipher: aes-256-cfb, password: suo.yt/ssrsub, plugin: obfs, plugin-opts: {mode: tls, host: n46hm52773.wns.windows.com}}
+  - {name: 美国01, server: 167.88.63.82, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 美国02, server: 167.88.63.108, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
+  - {name: 美国03, server: 66.115.177.136, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x}
+  - {name: 美国04, server: 64.44.42.60, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq}
+  - {name: 美国05, server: 146.70.27.12, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp}
+  - {name: 加拿大01, server: t8.ssrsub.com, port: 8443, type: trojan, password: 40879770-9fd5-461b-928f-7688bfff6e42, sni: t8.ssrsub.com}
+  - {name: 加拿大02, server: v8.ssrsub.com, port: 156, type: vmess, uuid: 2faeb94c-1be6-4e31-a30c-c0cbf5f4a1d5, alterId: 0, cipher: auto, tls: true, network: ws, ws-path: /ssrsub, ws-headers: {Host: v8.ssrsub.com}}
   - {name: 加拿大03, server: ssr1.ssrsub.one, port: 10139, type: ssr, cipher: aes-256-cfb, password: suo.yt/ssrsub, protocol: origin, obfs: plain, protocol-param: t.me/SSRSUB, obfs-param: ""}
-  - {name: 加拿大04, server: ssr2.ssrsub.one, port: 17478, type: ssr, cipher: aes-256-cfb, password: https://dlj.tf/ssrsub, protocol: origin, obfs: plain, protocol-param: t.me/SSRSUB, obfs-param: ""}
-  - {name: 加拿大05, server: 208.78.41.195, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
-  - {name: 法国01, server: 217.138.207.253, port: 31757, type: ss, cipher: aes-256-gcm, password: wj7nDCuNARchSeKNCN8VFK62}
+  - {name: 法国01, server: 185.108.106.146, port: 45746, type: ss, cipher: aes-256-gcm, password: wEsFcHCvbL4eJkL4DZQa7RgR}
   - {name: 法国02, server: 185.166.84.63, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
   - {name: 荷兰01, server: 46.182.107.37, port: 443, type: vmess, uuid: 65ea6727-4461-47a7-a5c4-fef2c67f2f79, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.09462550.xyz}}
   - {name: 荷兰02, server: 46.182.107.44, port: 443, type: vmess, uuid: fe5f69e7-e183-439b-950b-9661ef0651f2, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.68737987.xyz}}
   - {name: 荷兰03, server: 46.182.107.94, port: 443, type: vmess, uuid: 743bdc87-1dea-41bf-aa0b-51dfbbfec8aa, alterId: 64, cipher: auto, tls: true, network: ws, ws-path: /footers, ws-headers: {Host: www.54872833.xyz}}
-  - {name: 英国01, server: 185.108.105.55, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA}
-  - {name: 英国02, server: 109.169.72.249, port: 805, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao}
+  - {name: 英国01, server: 146.70.27.37, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8}
+  - {name: 英国02, server: 193.118.60.171, port: 8091, type: ss, cipher: aes-256-gcm, password: PCnnH6SQSnfoS27}
   - {name: 英国03, server: 185.44.76.188, port: 443, type: trojan, password: 8697fe6b-1948-41ce-a80a-7YWVzLTI1Ni1nY206WWd1c0gyTVdBOFBXYzNwMlZEc1I3QVZ2, skip-cert-verify: true, udp: true}
-  - {name: 日本01, server: t6.ssrsub.one, port: 8443, type: trojan, password: 310d9ce0-1903-4b5a-99eb-bee8dc30e8ec, skip-cert-verify: true, udp: true}
+  - {name: 日本01, server: 89.187.161.241, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
   - {name: 日本02, type: vmess, server: jike-gzyd.ddns-only.xyz, port: 39401, uuid: b8da3f41-58ec-3294-891e-cc27ecb1244a, alterId: 2, cipher: auto, udp: true, network: ws, ws-path: /jike1, ws-headers: {Host: jike1-azjp01.ddns-only.xyz}}
   - {name: 瑞士01, server: 84.39.114.86, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB}
   - {name: 瑞士02, server: 37.120.213.5, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ}
-  - {name: 新加坡01, server: ngzyd-1.okex-tradebot.xyz, port: 30004, type: vmess, uuid: f65634a8-3703-42d3-ad2d-bdcf1b31054f, alterId: 1, cipher: auto, tls: false, network: ws, ws-path: /, ws-headers: {Host: ngzyd-1.okex-tradebot.xyz}}
+  - {name: 新加坡01, server: t6.ssrsub.com, port: 8443, type: trojan, password: 40879770-9fd5-461b-928f-7688bfff6e42, sni: t6.ssrsub.com}
   - {name: 新加坡02, type: vmess, server: jike-gzyd.ddns-only.xyz, port: 39551, uuid: b8da3f41-58ec-3294-891e-cc27ecb1244a, alterId: 2, cipher: auto, udp: true, network: ws, ws-path: /jike1, ws-headers: {Host: jike1-linode01.ddns-only.xyz}}
   - {name: 俄罗斯01, type: vmess, server: jike-shlt.ddns-only.xyz, port: 39307, uuid: b8da3f41-58ec-3294-891e-cc27ecb1244a, alterId: 2, cipher: auto, udp: true, network: ws, ws-path: /jike1, ws-headers: {Host: jike1-ru04.ddns-only.xyz}}
   - {name: 中国01, server: 101.132.192.212, port: 30003, type: ss, cipher: aes-128-gcm, password: desperadoj.com_free_proxy_d39m}
-  - {name: 罗马尼亚01, server: 193.29.106.5, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD}
+  - {name: 罗马尼亚01, server: 91.90.123.115, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -54,8 +52,6 @@ proxy-groups:
       - 加拿大01
       - 加拿大02
       - 加拿大03
-      - 加拿大04
-      - 加拿大05
       - 法国01
       - 法国02
       - 荷兰01
@@ -91,8 +87,6 @@ proxy-groups:
       - 加拿大01
       - 加拿大02
       - 加拿大03
-      - 加拿大04
-      - 加拿大05
       - 法国01
       - 法国02
       - 荷兰01
@@ -128,8 +122,6 @@ proxy-groups:
       - 加拿大01
       - 加拿大02
       - 加拿大03
-      - 加拿大04
-      - 加拿大05
       - 法国01
       - 法国02
       - 荷兰01
@@ -165,8 +157,6 @@ proxy-groups:
       - 加拿大01
       - 加拿大02
       - 加拿大03
-      - 加拿大04
-      - 加拿大05
       - 法国01
       - 法国02
       - 荷兰01
@@ -202,8 +192,6 @@ proxy-groups:
       - 加拿大01
       - 加拿大02
       - 加拿大03
-      - 加拿大04
-      - 加拿大05
       - 法国01
       - 法国02
       - 荷兰01
@@ -239,8 +227,6 @@ proxy-groups:
       - 加拿大01
       - 加拿大02
       - 加拿大03
-      - 加拿大04
-      - 加拿大05
       - 法国01
       - 法国02
       - 荷兰01
@@ -291,8 +277,6 @@ proxy-groups:
       - 加拿大01
       - 加拿大02
       - 加拿大03
-      - 加拿大04
-      - 加拿大05
       - 法国01
       - 法国02
       - 荷兰01
